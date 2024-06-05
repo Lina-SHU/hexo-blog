@@ -37,7 +37,7 @@
 <meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -58,7 +58,7 @@
         
           <a class="main-nav-link" href="/hexo-blog/">首頁</a>
         
-          <a class="main-nav-link" href="/hexo-blog/archives">部落格</a>
+          <a class="main-nav-link" href="/hexo-blog/blog">部落格</a>
         
           <a class="main-nav-link" href="/hexo-blog/about">裩於我</a>
         
@@ -133,7 +133,7 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       <a href="/hexo-blog/2024/05/04/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-04T02:21:35.851Z" itemprop="datePublished">5月 4</time>
+  <time class="dt-published" datetime="2024-05-04T02:21:35.850Z" itemprop="datePublished">5月 4</time>
 </a>
       
   
@@ -229,7 +229,7 @@
   
     <a href="/hexo-blog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/hexo-blog/archives" class="mobile-nav-link">部落格</a>
+    <a href="/hexo-blog/blog" class="mobile-nav-link">部落格</a>
   
     <a href="/hexo-blog/about" class="mobile-nav-link">裩於我</a>
   
@@ -254,5 +254,17 @@
 
 
   </div>
+
+  <style>
+    .fullPage #main {
+      width: 100%;
+      float: none;
+      margin: 0;
+    }
+
+    .fullPage .article-meta, .fullPage .article-header, .fullPage .article-footer {
+      display: none;
+    }
+  </style>
 </body>
 </html>
